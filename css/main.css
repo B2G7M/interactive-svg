@@ -31,7 +31,7 @@ html {
 @keyframes eyes {
 
   from {
-    transform: translateX(0x)
+    transform: translateX(0x);
   }
 
   to {
