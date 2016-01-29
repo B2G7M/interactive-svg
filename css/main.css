@@ -29,14 +29,7 @@ html {
 }
 
 @keyframes eyes {
-
-  from {
-    transform: translateX(0x);
-  }
-
-  to {
-    transform: translateX(-10px);
-  }
-
+  from { transform: translateX(0x); }
+  to { transform: translateX(-10px); }
 }
 
