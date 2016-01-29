@@ -25,7 +25,7 @@ html {
 }
 
 .eyes {
-  animation: ears .5s linear infinite;
+  animation: eyes .5s linear infinite alternate;
 }
 
 @keyframes eyes {
@@ -35,7 +35,8 @@ html {
   }
 
   to {
-    transform: translateX(10px);
+    transform: translateX(-10px);
   }
+
 }
 
