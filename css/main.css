@@ -15,3 +15,27 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.ears {
+  transition: all .5s linear;
+}
+
+.bear:hover .ears {
+  transform: translateY(-10px);
+}
+
+.eyes {
+  animation: ears .5s linear infinite;
+}
+
+@keyframes eyes {
+
+  from {
+    transform: translateX(0x)
+  }
+
+  to {
+    transform: translateX(10px);
+  }
+}
+
